@@ -1,0 +1,12 @@
+# Proteção de conteúdo da marca em merges da matriz (ver /atualizar-agencia):
+# nestes diretórios, qualquer conflito resolve SEMPRE para o lado da filial.
+# Requer o driver habilitado no repo que faz o merge (a skill garante):
+#   git config merge.ours.driver true
+brand/** merge=ours
+data/** merge=ours
+outputs/** merge=ours
+assets/** merge=ours
+anexos/** merge=ours
+referencias/** merge=ours
+.env merge=ours
+.env.* merge=ours

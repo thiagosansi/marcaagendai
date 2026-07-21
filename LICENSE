@@ -1,0 +1,79 @@
+LICENÇA DE USO NÃO COMERCIAL — AGENTICA-ENGINE
+Versão 1.0 — 15 de julho de 2026
+
+Copyright (c) 2026 Adriano Fialho ("Licenciante")
+Repositório matriz: https://github.com/afialho/agentica-engine (a "Matriz")
+
+1. DEFINIÇÕES
+
+   "Software": este repositório e todo o seu maquinário — código (tools/),
+   instruções e agentes (CLAUDE.md, AGENTS.md, agents/, .claude/), templates
+   (templates/) e demais arquivos que compõem o harness da agência — em
+   qualquer cópia, integral ou parcial, incluindo cópias exportadas como
+   "filial".
+
+   "Filial": cópia do Software exportada pela Matriz para uso de um terceiro
+   (o "Licenciado").
+
+   "Materiais Produzidos": peças, campanhas, sites, textos, imagens e demais
+   entregáveis criados COM o Software (tipicamente o conteúdo de outputs/,
+   brand/, data/, assets/ e referencias/ de cada instalação).
+
+2. CONCESSÃO
+
+   O Licenciante concede ao Licenciado de uma Filial licença mundial,
+   gratuita, não exclusiva, intransferível e revogável para usar, executar e
+   modificar o Software para fins internos próprios — inclusive dentro da
+   atividade comercial do Licenciado (ex.: usar a agência para produzir
+   marketing do próprio negócio ou de seus clientes).
+
+3. MATERIAIS PRODUZIDOS SÃO DO LICENCIADO
+
+   Os Materiais Produzidos pertencem integralmente a quem os produziu e podem
+   ser usados e comercializados livremente. Esta licença restringe o
+   Software, nunca os Materiais Produzidos.
+
+4. VEDAÇÕES — COMERCIALIZAÇÃO EXCLUSIVA DA MATRIZ
+
+   Ao Licenciado (qualquer Filial) é vedado:
+
+   a) vender, alugar, sublicenciar, revender ou cobrar, a qualquer título,
+      por cópia, acesso ou uso do Software;
+   b) redistribuir o Software, no todo ou em parte, gratuitamente ou não —
+      inclusive exportar novas cópias/filiais (operação "abrir filial",
+      reservada à Matriz);
+   c) oferecer o Software, ou obra dele derivada, como produto ou serviço a
+      terceiros (SaaS, template, white-label, produto de curso ou similar);
+   d) remover ou alterar este arquivo de licença ou os avisos de autoria.
+
+   Somente o Licenciante, por meio da Matriz, pode comercializar ou
+   redistribuir o Software, no todo ou em parte, sob qualquer forma.
+
+5. MODIFICAÇÕES
+
+   Modificações feitas pelo Licenciado para uso interno são permitidas e
+   ficam sujeitas a esta mesma licença; não geram direito de redistribuição
+   nem de comercialização do Software modificado.
+
+6. ATUALIZAÇÕES
+
+   Atualizações de maquinário recebidas da Matriz (ex.: via
+   /atualizar-agencia) são licenciadas sob estes mesmos termos.
+
+7. RESCISÃO
+
+   O descumprimento de qualquer cláusula rescinde esta licença
+   automaticamente. Rescindida a licença, o Licenciado deve cessar o uso do
+   Software e destruir suas cópias; os Materiais Produzidos até então
+   permanecem do Licenciado.
+
+8. SEM GARANTIAS
+
+   O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO,
+   EXPRESSA OU IMPLÍCITA. EM NENHUMA HIPÓTESE O LICENCIANTE RESPONDERÁ POR
+   DANOS DECORRENTES DO USO OU DA IMPOSSIBILIDADE DE USO DO SOFTWARE.
+
+9. PRESERVAÇÃO
+
+   Toda cópia do Software — inclusive toda Filial — deve manter este arquivo
+   LICENSE intacto na raiz do repositório.

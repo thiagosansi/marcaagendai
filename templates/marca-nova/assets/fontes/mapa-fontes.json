@@ -1,0 +1,7 @@
+{
+  "_doc": "Fontes da marca por PAPEL — display (títulos), corpo (texto editorial) e kicker (rótulos/apoio). Os specs do compose usam os papéis (ou os aliases herdados 'baloo'/'dm'/'albert'). Os arquivos abaixo são o DEFAULT da filial (OFL, embutidos em assets/fontes/): fallback licenciado para a máquina funcionar ANTES de a marca ter tipografia própria — não são sugestão de identidade. Marca com fontes oficiais: copiar os .ttf/.otf para assets/fontes/ e trocar os nomes de arquivo aqui — nenhum spec muda. Variable fonts têm o peso ajustado automaticamente; fontes estáticas usam o peso do arquivo.",
+  "_comentario": "Fraunces (variable wght+opsz, OFL) está em assets/fontes/ como opção SERIFADA de display — elegante/editorial, pareia bem com DM Sans e Albert Sans. Os papéis da marca são definidos na /imersao-na-marca (estágios 3–4); se trocar um papel para a Fraunces (ou outra fonte de métrica diferente), calibrar a entrelinha no render de calibração do estágio 4 usando o formato: \"display\": {\"file\": \"Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf\", \"line_height\": {\"large\": 1.1, \"small\": 1.3, \"threshold\": 56}}.",
+  "display": "DMSans-VariableFont_opsz,wght.ttf",
+  "corpo": "DMSans-VariableFont_opsz,wght.ttf",
+  "kicker": "AlbertSans-VariableFont_wght.ttf"
+}

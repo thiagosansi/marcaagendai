@@ -1,0 +1,44 @@
+{
+  "canvas": {"preset": "feed-4x5"},
+  "background": {"gradient": {"from": "#DBEAFE", "to": "#EDE9FE", "direction": "vertical"}},
+  "layers": [
+    {"type": "blob", "cx": 1010, "cy": 80, "r": 190, "color": "#C7D2FE", "opacity": 0.6,
+     "seed": 7, "variance": 0.2, "stretch_x": 1.15},
+    {"type": "dots", "x": 870, "y": 240, "rows": 3, "cols": 5, "gap": 30, "r": 5,
+     "color": "#2563EB", "opacity": 0.35},
+    {"type": "circle", "cx": 70, "cy": 1290, "r": 140, "color": "#7C3AED", "opacity": 0.08},
+
+    {"type": "badge", "text": "GUIA RÁPIDO", "x": 96, "y": 120, "font": "kicker",
+     "weight": 700, "size": 28, "uppercase": true},
+
+    {"type": "text", "text": "Checklist antes de publicar", "font": "display", "weight": 700,
+     "size": 92, "color": {"from": "#1D4ED8", "to": "#7C3AED"},
+     "x": 96, "y": 216, "max_width": 890, "align": "left", "line_height": 1.12},
+
+    {"type": "rect", "x": 96, "y": 560, "w": 888, "h": 220, "radius": 44,
+     "color": "#F9FAFB", "opacity": 0.92, "shadow": true},
+
+    {"type": "icon", "name": "list-checks", "size": 52, "cx": 176, "cy": 646},
+
+    {"type": "text", "spans": [
+       {"text": "Uma "},
+       {"text": "ideia por peça", "weight": 700},
+       {"text": ", título "},
+       {"text": "legível no celular", "weight": 700, "color": "#7C3AED"},
+       {"text": " e um único CTA no final."}],
+     "font": "corpo", "size": 40, "x": 246, "y": 610, "max_width": 690,
+     "line_height": 1.4, "align": "left"},
+
+    {"type": "bubble", "x": 96, "y": 950, "w": 470, "h": 170},
+    {"type": "text", "spans": [
+       {"text": "Feito ", "weight": 700, "color": "#2563EB"},
+       {"text": "é melhor que perfeito."}],
+     "font": "corpo", "size": 34, "x": 140, "y": 1000, "max_width": 390, "align": "left"},
+
+    {"type": "badge", "text": "Compartilha com o time", "x": 96, "y": 1180, "font": "corpo",
+     "weight": 600, "size": 30, "icon": "send"},
+
+    {"type": "text", "text": "Arraste para ver →", "font": "corpo", "weight": 600,
+     "size": 30, "color": "#6B7280", "x": 96, "y": 1286, "align": "left"}
+  ]
+}

@@ -1,0 +1,3 @@
+# Fallback para quem não usa uv (os scripts têm PEP 723 e rodam com `uv run` sem isto)
+openai>=1.60
+pillow>=10.4

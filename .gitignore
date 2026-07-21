@@ -1,0 +1,49 @@
+# Segredos
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Rascunhos temporários de ferramentas
+tools/_build/
+
+# Acervos de fotos da marca — pesados demais para o git (masters fora do repo;
+# cópia de trabalho local + índice versionado em data/asset-index.json).
+# Cobre qualquer pasta de foto que a imersão criar; png de foto → adicionar a pasta aqui.
+assets/**/*.jpg
+assets/**/*.jpeg
+
+# Referências (artes prontas, pesadas) — masters fora do repo;
+# o que o git versiona é o _index.md com as lições de cada série
+assets/referencias-aprovadas/**/*.png
+assets/referencias-aprovadas/**/*.jpg
+assets/referencias-rejeitadas/**/*.png
+assets/referencias-rejeitadas/**/*.jpg
+
+# Acervo de referência do mundo real — imagens são estudo/insumo de --ref (podem ser
+# pesadas); o git versiona só o _index.md (características fiéis + o que não distorcer)
+assets/referencias-reais/**/*.png
+assets/referencias-reais/**/*.jpg
+assets/referencias-reais/**/*.jpeg
+assets/referencias-reais/**/*.webp
+
+# ── Acervo da filial (Le Petit Quicheria) — masters pesados fora do repo ──
+# (bloco preservado no sync com a matriz; logos continuam versionados)
+assets/quiches/**
+assets/produtos/**
+assets/equipe/**
+assets/bastidores/**
+assets/loja/**
+assets/institucional/**
+assets/referencias-antigas/**
+assets/fundadora-priscila/*.jpeg
+assets/fundadora-priscila/*.jpg
+assets/fundadora-priscila/*.png
+assets/videos/**

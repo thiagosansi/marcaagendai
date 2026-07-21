@@ -1,0 +1,7 @@
+{
+  "_doc": "Fontes da marca Le Petit Quicheria por PAPEL — display (títulos), corpo (texto editorial) e kicker (rótulos/apoio). Definido na imersão (estágio 3, Direção C 'Petit Contemporâneo'; troca da Fraunces por decisão da Priscila): DM Serif Display é o DISPLAY (serifada Didone elegante, par nativo da DM Sans, F clássico); DM Sans o corpo (respiro moderno, leitura limpa); Albert Sans o kicker (rótulos de galeria em caps espaçado). Todas OFL, embutidas em assets/fontes/.",
+  "_comentario": "DM Serif Display é serifada de DISPLAY de peso ÚNICO (Regular) — a hierarquia vem do TAMANHO e do espaço, não do peso. Tem itálico para ênfase. Usa o formato objeto com line_height calibrado: tight no grande (≥56px), mais folgado no pequeno. Calibrar nos renders se o compose avisar colisão de tinta.",
+  "display": {"file": "DMSerifDisplay-Regular.ttf", "line_height": {"large": 1.06, "small": 1.22, "threshold": 56}},
+  "corpo": "DMSans-VariableFont_opsz,wght.ttf",
+  "kicker": "AlbertSans-VariableFont_wght.ttf"
+}
